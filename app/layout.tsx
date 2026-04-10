@@ -34,7 +34,7 @@ export default function RootLayout({
             forcedTheme="light"
             disableTransitionOnChange>
             <Header />
-            {children}
+            <div className="container mx-auto max-w-7xl">{children}</div>
             <Footer />
           </ThemeProvider>
         </div>

@@ -4,7 +4,7 @@ import TeamMembers from "./_components/TeamMembers";
 
 const page = () => {
   return (
-    <div>
+    <div className="space-y-5">
       {/* GALLERY SECTION */}
       <GallerySection />
       {/* DETAILS CARD SECTION */}
